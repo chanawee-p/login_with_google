@@ -17,6 +17,12 @@
       "**/*"
     ],
     "ios": {
+      "bundleIdentifier": "example.expo.googlesignin",
+      "config":{
+        "googleSignIn": {
+          "reservedClientId": "com.googleusercontent.apps.497659201270-f2kksf7q2al5753gjgnc4c3kdm65rlfp"
+        }
+      },
       "supportsTablet": true
     },
     "android": {
